@@ -1,0 +1,46 @@
+{
+	"name": "tinder-react-native",
+	"description": "Tinder React Native clone",
+	"version": "0.2.0",
+	"author": "Steven Persia",
+	"licence": "MIT",
+	"homepage": "https://github.com/stevenpersia/tinder-react-native",
+	"private": true,
+	"scripts": {
+		"lint": "eslint ./components ./containers --fix",
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"react": "16.6.3",
+		"react-native": "^0.59.9",
+		"react-native-card-stack-swiper": "^1.1.0",
+		"react-native-gesture-handler": "^1.0.12",
+		"react-navigation": "^3.0.9"
+	},
+	"devDependencies": {
+		"babel-jest": "^24.8.0",
+		"eslint": "^6.6.0",
+		"eslint-config-standard": "^14.1.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-node": "^10.0.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-react": "^7.16.0",
+		"eslint-plugin-react-native": "^3.8.1",
+		"eslint-plugin-standard": "^4.0.1",
+		"jest": "^24.8.0",
+		"metro-react-native-babel-preset": "0.51.1",
+		"react-test-renderer": "16.6.3"
+	},
+	"jest": {
+		"preset": "react-native",
+		"transform": {
+			"node_modules/react-native/.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+		}
+	},
+	"rnpm": {
+		"assets": [
+			"./assets/fonts/"
+		]
+	}
+}
