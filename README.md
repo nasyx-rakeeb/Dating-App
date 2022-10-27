@@ -1,11 +1,5 @@
-<h1 align="center">
-<img
-		width="250"
-		alt="Tinder Clone - React Native"
-		src="https://github.com/stevenpersia/tinder-react-native/blob/master/preview/tinder-clone-logo.gif">
-</h1>
 <h3 align="center">
-	Tinder Clone - React Native
+	Dating App - React Native
 </h3>
 
 <p align="center">
@@ -17,20 +11,6 @@
 <p align="center">
 	<img src="https://github.com/stevenpersia/tinder-react-native/blob/master/preview/tinderclone-preview.gif" width="300">
 </p>
-
-
-## Overview
-
-⚠️ **This repository is not maintain anymore. I've made another repository of this project on Expo (and with Typescript) : https://github.com/stevenpersia/tinder-expo.**
-
-👏 **Thank you for your stars, your issues and your pull requests. I really love open source community.** ❤️
-
-**Perfect to start an Tinder Clone app.** 4 screens are availables : Explore, Matches, Messages and Profile. You'll find some components like Card Component to pass props and variant. No frameworks UI like Bootstrap or Material UI are used.
-
-More features will be added to the project in the future.
-
-This project was inspired by this [amazing Kishore's work on Dribbble](https://dribbble.com/shots/5631075-Dating-App-Sketch-Freebie-Day-334-365-Project365). Feel free to follow this guy because he does great stuff.
-
 
 ## Screenshots
 
